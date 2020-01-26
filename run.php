@@ -1,5 +1,5 @@
 <?php
-$uuid = 'd790ab7c-' . rand(1000,9999) . '-' . rand(1000,9999) . '-' . rand(1000,9999) . '-5641fab44281';
+$uuid = 'd' . rand(111,999) . 'ab7c-' . rand(1000,9999) . '-' . rand(1000,9999) . '-' . rand(1000,9999) . '-' . rand(1000,9999) .'fab' . rand(11111,99999);
 
 echo 'Country Number : '; 
 $areaCode = trim(fgets(STDIN));
